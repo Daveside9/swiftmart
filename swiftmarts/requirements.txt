@@ -1,0 +1,35 @@
+# Core Django
+Django==5.0.2
+djangorestframework==3.14.0  # For API endpoints (important for mobile apps or frontend integration)
+
+# Authentication & Security
+django-allauth==0.58.2       # Social auth and email verification
+django-cors-headers==4.3.1   # Allow frontend to communicate with backend
+django-environ==0.11.2       # Environment variables
+django-crispy-forms==2.1     # For better form rendering
+django-otp==1.2.4            # Two-factor authentication
+
+# Database
+psycopg2-binary==2.9.9       # For PostgreSQL (optional if you plan to use Postgres)
+mysqlclient==2.2.4           # If using MySQL
+dj-database-url==2.1.0       # For easier DB config with env vars
+
+# Media & File Handling
+Pillow==10.2.0               # Image processing for product images
+
+# Payments & Financials
+requests==2.32.3             # For calling payment APIs (Opay, Palmpay, Moniepoint)
+python-dotenv==1.0.1         # Load .env variables for payment keys
+
+# Deployment & Performance
+gunicorn==21.2.0             # For production server
+whitenoise==6.6.0            # Serve static files in production
+
+# Celery & Redis (Optional if using background tasks)
+celery==5.3.6
+redis==5.0.4
+
+# Testing
+pytest==8.1.1
+pytest-django==4.7.0
+
