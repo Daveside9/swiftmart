@@ -22,7 +22,7 @@ requests==2.32.3             # For calling payment APIs (Opay, Palmpay, Moniepoi
 python-dotenv==1.0.1         # Load .env variables for payment keys
 
 # Deployment & Performance
-gunicorn==21.2.0             # For production server
+gunicorn==23.0.0             # For production server
 whitenoise==6.6.0            # Serve static files in production
 
 # Celery & Redis (Optional if using background tasks)
