@@ -18,7 +18,7 @@ dj-database-url==2.1.0       # For easier DB config with env vars
 Pillow==10.2.0               # Image processing for product images
 
 # Payments & Financials
-requests==2.32.3             # For calling payment APIs (Opay, Palmpay, Moniepoint)
+requests==2.32.4             # For calling payment APIs (Opay, Palmpay, Moniepoint)
 python-dotenv==1.0.1         # Load .env variables for payment keys
 
 # Deployment & Performance
